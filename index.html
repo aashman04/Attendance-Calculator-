@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Attendance Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="box">
+
+        <h1>Attendance Calculator</h1>
+
+        <p>Enter your attendance details.</p>
+
+        <label>Total Working Days</label>
+        <input type="number" id="totalDays">
+
+        <label>Days Attended</label>
+        <input type="number" id="presentDays">
+
+        <label>Required Attendance (%)</label>
+        <input type="number" id="requiredAttendance">
+
+        <button onclick="calculateAttendance()">Calculate</button>
+
+        <div id="result"></div>
+
+    </div>
+
+    <script src="ac.js"></script>
+
+</body>
+</html>
